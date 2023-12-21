@@ -14,3 +14,7 @@ For now Since this is Alpha v0.1 It has two features:
 **WARNING!**
 
 I WILL **NOT** BE RESPONSIBLE FOR ANY DAMAGE DONE IN ANY WAY
+
+## Certificate
+
+I did create a Certificate for the setup but if it says Unknown publisher dont worry.
