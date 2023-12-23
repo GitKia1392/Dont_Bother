@@ -49,7 +49,7 @@ class Install(qmain):
                     sys.exit()
 
             # Create a button to get the user's input
-            button = QPushButton("Continue")
+            button = QPushButton("Continue to Dont_Bother?")
             button.clicked.connect(handle_input)
             layout.addWidget(button)
 
