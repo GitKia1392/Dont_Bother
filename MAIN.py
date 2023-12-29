@@ -1,13 +1,17 @@
 import sys
 import platform
 import time
-from PyQt5.QtWidgets import QApplication as qapp, QMainWindow as qmain, QLabel as qlab, QVBoxLayout as qvbox, QWidget, QPushButton
+from PyQt5.QtWidgets import QApplication as qapp, QMainWindow as qmain, QLabel as qlab, QVBoxLayout as qvbox, QWidget, QPushButton, QEvent as qeve      
+from PyQt5.QtGui import QIcon
+import subprocess as sp
 
 app = qapp(sys.argv)
 
 class Install(qmain):
     def __init__(self):
         super().__init__()
+        self.setWindowIcon(QIcon("K:\Dont_Bother\Icon-Taskbar-window.png"))
+        
 
         if platform.system() != "Windows":
             # If your OS isn't Windows it will execute this code:
@@ -18,7 +22,7 @@ class Install(qmain):
             central_widget = QWidget(self)
 
             layout = qvbox()
-            label = qlab(f"OS must be Windows 8.1 (Windows 10, 8.1, 11), This OS is {platform.system()}")
+            label = qlab(f"OS must be Windows 10, 8.1 or 11, this OS is using {platform.system()}")
             layout.addWidget(label)
 
             # Set the layout for the central widget
@@ -45,12 +49,28 @@ class Install(qmain):
                 user_input = input_label.text()
                 if user_input.lower() == "yes":
                     layout.addWidget(input_label)
+
                 else:
                     sys.exit()
+                    
+            # if the user wants to continue.
+            button = QPushButton("Continue to Dont_Bother?")
+            
 
             # Create a button to get the user's input
-            button = QPushButton("Continue to Dont_Bother?")
+            if button.clicked:
+                sp.run(['python', 'ExecutableBuilder.py'])
+                layout2 = qvbox()
+                label2 = qlab('Welcome, This is the Executable Builder running.')
+                layout2.addWidget(label2)
+                
+                
+                    
+                
+            
             button.clicked.connect(handle_input)
+                
+            
             layout.addWidget(button)
 
             central_widget.setLayout(layout)
