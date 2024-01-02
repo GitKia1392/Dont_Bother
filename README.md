@@ -15,7 +15,7 @@ In order to use Dont_Bother correctly you will need Python® 3.12.1(The newest)
 
 **To get Python®:**
 
-**1**) Goto python.org on your browser
+**1**) Goto [python.org](https://www.python.org/) on your browser
 
 **2**) Find "Downloads" and where it says "Python 3.12.1" click on the button and procced to the installation.
 
