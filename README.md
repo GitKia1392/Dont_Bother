@@ -43,4 +43,7 @@ I did create a Certificate for the setup but if it says Unknown publisher dont w
 
 ##
 Python is Copyright(®) ;
+
+All rights Reserved 
+
 Python Software Foundation 2001-2024
