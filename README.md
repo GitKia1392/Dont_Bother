@@ -23,7 +23,7 @@ In order to use Dont_Bother correctly you will need Python® 3.12.1(The newest)
 
 `pip install PyQt5, subprocess`
 
-**4**) Then goto the TaskBar and search "IDLE" It should say "IDLE (Python 3.12)" Open it and the find "File" --> "Open..." And[countinued next line]
+**4**) Then goto the TaskBar and search "IDLE" It should say "IDLE (Python 3.12)" Open it and the find "File" --> "Open..." And 
 navigate to installation path of Dont_Bother and double click on "MAIN.py" -->
 Then find "Run" and click on "Run Module" --> Finally you're done!
 ### Note:
