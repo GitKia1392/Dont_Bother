@@ -21,7 +21,7 @@ In order to use Dont_Bother correctly you will need Python® 3.12.1(The newest)
 
 **3**) After, Open Powershell(or cmd.exe) and type:
 
-`pip install PyQt5, subprocess`
+`pip install PyQt5, subprocess, PyGithub`
 
 **4**) Then goto the TaskBar and search "IDLE" It should say "IDLE (Python 3.12)" Open it and the find "File" --> "Open..." And 
 navigate to installation path of Dont_Bother and double click on "MAIN.py" -->
