@@ -35,6 +35,7 @@ Then find "Run" and click on "Run Module" --> Finally you're done!
 
 I WILL **NOT** BE RESPONSIBLE FOR ANY DAMAGE DONE IN ANY WAY
 And also if you run the Setup Anti-Viruses such as Kaspersky and BitDefender WILL see it as Malware but it's not trust me.
+And this is discontinued if you want to take over this project contact me at kiamehr13922014@gmail.com.
 
 ## Certificate
 
